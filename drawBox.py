@@ -37,3 +37,7 @@ def main():
         drawBox(sym, width, height)  # Attempt to draw box
     except Exception as err:     # Catch any runtime errors
         print('There was an Exception: ' + str(err))
+
+# Entry point check
+if __name__ == "__main__":
+    main()
