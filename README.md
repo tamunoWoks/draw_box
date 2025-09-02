@@ -11,4 +11,9 @@ This project demonstrates:
 - Exception handling  
 - String manipulation for ASCII art  
 
----
+### Features  
+- Draws a hollow rectangular box using any symbol.  
+- Validates that the symbol is a **single character**.  
+- Ensures **width and height > 2** for a proper box.  
+- Graceful error handling with **try/except** blocks.  
+- Modular code with a `box()` function and a `main()` function.  
